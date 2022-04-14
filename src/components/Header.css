@@ -1,0 +1,42 @@
+.navbar-style {
+	background-color: #1d1b38;
+}
+
+.button-color {
+	background-color: #6d1ac9;
+}
+
+/* not active */
+.nav-pills .pill-1:not(.active) {
+	background-color: #1d1b38;
+}
+
+.nav-pills .pill-2:not(.active) {
+	background-color: #1d1b38;
+}
+
+.nav-pills .pill-3:not(.active) {
+	background-color: #1d1b38;
+}
+
+.nav-pills .pill-4:not(.active) {
+	background-color: #1d1b38;
+}
+
+/* active (faded) */
+.nav-pills .pill-1:focus {
+	background-color: #6d1ac9;
+}
+
+.nav-pills .pill-2:focus {
+	background-color: #6d1ac9;
+}
+
+.nav-pills .pill-3:focus {
+	background-color: #6d1ac9;
+}
+
+.nav-pills .pill-4:focus,
+::after {
+	background-color: #6d1ac9;
+}

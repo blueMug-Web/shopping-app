@@ -1,0 +1,7 @@
+.login-btn:focus {
+	background-color: #6d1ac9 !important;
+}
+
+.btn .btn-outline-primary .login-btn .text-white .ms-1 {
+	background-color: #6d1ac9 !important;
+}

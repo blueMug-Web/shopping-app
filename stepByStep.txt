@@ -1,0 +1,24 @@
+*Steps taken when constructing this fake store website
+
+1) Import BrowserRouter and Bootstrap
+2) Create components
+3) Set up Header component
+4) Replace a with NavLink and href with to
+5) Create Login, SignUp, Cart buttons
+6) Create Homepage
+7) Create Product component
+8) Create About Page component
+9) Create Contact Page component
+10) create Product Details component (for a singular product)
+11) handle Add To Cart button
+12) To change the text of (Cart)Button, we use useState hook
+13) add the product in the Cart
+14) To add the Product to the Cart, we use Redux
+15) In actions, we tell them what we want.
+16) In Reducers, we tell them how it works
+17) Combine reducers (Redux > Reducers > index.js)
+18) Create a store
+19) import them in index.js and integrate them
+20) Call logic in redux to add products to cart
+21) Show number of items in Cart Button
+22) create the Cart page component
