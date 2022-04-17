@@ -8,7 +8,7 @@ import "./Header.css";
 const Header = () => {
 	return (
 		<>
-			<nav className="navbar navbar-expand-lg navbar-light navbar-style">
+			<nav className="navbar navbar-expand-lg navbar-dark navbar-style">
 				<div className="container-fluid py-2">
 					<button
 						className="navbar-toggler"
@@ -19,13 +19,13 @@ const Header = () => {
 						aria-expanded="false"
 						aria-label="Toggle navigation"
 					>
-						<span className="navbar-toggler-icon"></span>
+						<span className="navbar-toggler-icon "></span>
 					</button>
 					<div className="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul className="navbar-nav nav-pills  me-auto mb-2 mb-lg-0 ">
+						<ul className="navbar-nav nav-pills me-auto mb-2 mb-lg-0 ">
 							<li className="nav-item ">
 								<NavLink
-									className="nav-link text-light pill-1"
+									className="nav-link text-light pill-1 my-1"
 									aria-current="page"
 									to="/"
 								>
@@ -33,30 +33,39 @@ const Header = () => {
 								</NavLink>
 							</li>
 							<li className="nav-item">
-								<NavLink className="nav-link text-light pill-2" to="/products">
+								<NavLink
+									className="nav-link text-light pill-2 my-1"
+									to="/products"
+								>
 									Products
 								</NavLink>
 							</li>
 							<li className="nav-item">
-								<NavLink className="nav-link text-light pill-3" to="/about">
+								<NavLink
+									className="nav-link text-light pill-3 my-1"
+									to="/about"
+								>
 									About
 								</NavLink>
 							</li>
 							<li className="nav-item">
-								<NavLink className="nav-link text-light pill-4" to="/contact">
+								<NavLink
+									className="nav-link text-light pill-4 my-1"
+									to="/contact"
+								>
 									Contact
 								</NavLink>
 							</li>
 						</ul>
-						<NavLink
-							className="navbar-brand fw-bold text-left text-light"
-							to="/"
-						>
-							i-MART
-						</NavLink>
-						<Login />
-						<Signup />
-						<CartBtn />
+						<div className="me-auto navbar-nav inline-block">
+							<NavLink className="navbar-brand fw-bold align-middle" to="/">
+								i-MART
+							</NavLink>
+
+							<Login />
+							<Signup />
+							<CartBtn />
+						</div>
 					</div>
 				</div>
 			</nav>

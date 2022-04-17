@@ -1,6 +1,9 @@
 .navbar-style {
 	background-color: #1d1b38;
 }
+.navbar-toggler-icon {
+	color: white;
+}
 
 .button-color {
 	background-color: #6d1ac9;
